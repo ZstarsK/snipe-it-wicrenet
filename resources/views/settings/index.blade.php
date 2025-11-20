@@ -158,6 +158,7 @@
           </div>
         </div>
 
+        {{--
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
@@ -172,6 +173,7 @@
             </div>
           </div>
         </div>
+        --}}
 
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
@@ -188,6 +190,7 @@
           </div>
         </div>
 
+        {{--
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
@@ -203,6 +206,7 @@
             </div>
           </div>
         </div>
+        --}}
 
 
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
@@ -220,6 +224,7 @@
           </div>
         </div>
 
+      {{--
       <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
         <div class="admin box box-default">
           <div class="box-body text-center">
@@ -234,6 +239,7 @@
           </div>
         </div>
       </div>
+      --}}
 
       <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
         <div class="admin box box-default">
@@ -250,6 +256,7 @@
         </div>
       </div>
 
+        {{--
         <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
           <div class="admin box box-default">
             <div class="box-body text-center">
@@ -264,6 +271,7 @@
             </div>
           </div>
         </div>
+        --}}
 
 
       <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
@@ -315,6 +323,7 @@
         @endif
 
 
+    {{--
     <div class="col-md-4 col-lg-3 col-sm-6 col-xl-1">
       <div class="admin box box-danger">
         <div class="box-body text-center">
@@ -330,12 +339,14 @@
         </div>
       </div>
     </div>
+    --}}
   </div>
 </div>
 
 
 
 
+{{--
 <div class="row">
   <div class="col-md-12">
     <div class="box box-default">
@@ -437,6 +448,7 @@
         </div>
       </div> <!-- /box-body-->
     </div> <!--/box-default-->
+--}}
 
 
 

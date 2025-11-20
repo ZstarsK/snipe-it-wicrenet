@@ -314,6 +314,7 @@
 
 
 
+                       {{--
                        <fieldset name="dashboard">
                            <x-form-legend>
                                {{ trans('admin/settings/general.legends.dashboard') }}
@@ -374,6 +375,7 @@
                                    </div>
                                </div>
                        </fieldset>
+                       --}}
 
 
                        <fieldset>
