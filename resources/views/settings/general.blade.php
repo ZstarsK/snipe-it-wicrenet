@@ -130,6 +130,7 @@
                            </div>
                        </fieldset>
 
+                       {{--
                        <fieldset>
                            <x-form-legend>
                                {{ trans('admin/settings/general.legends.eula') }}
@@ -165,6 +166,7 @@
                            </div>
 
                        </fieldset>
+                       --}}
 
                        <fieldset>
                            <x-form-legend>

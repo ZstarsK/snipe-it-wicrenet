@@ -296,6 +296,7 @@
 
                             <!-- colors and skins -->
 
+                            {{--
                             <fieldset name="footer-preferences">
                                 <x-form-legend>
                                     {{ trans('admin/settings/general.legends.footer') }}
@@ -398,6 +399,7 @@
                                     </div>
                                 </div>
                             </fieldset>
+                            --}}
 
 
 

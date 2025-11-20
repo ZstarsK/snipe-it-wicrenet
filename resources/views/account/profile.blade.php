@@ -131,6 +131,7 @@
 
           @else
           <!-- Gravatar Email -->
+          {{--
           <div class="form-group {{ $errors->has('gravatar') ? ' has-error' : '' }}">
             <label for="gravatar" class="col-md-3 control-label">{{ trans('general.gravatar_email') }}
               <small>(Private)</small>
@@ -144,6 +145,7 @@
               </p>
             </div>
           </div>
+          --}}
 
         @endif
 
