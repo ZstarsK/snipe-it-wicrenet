@@ -641,6 +641,7 @@ dir="{{ Helper::determineLanguageDirection() }}">
                                 </a>
                             </li>
                         @endcan
+                        {{--
                         @can('view', \App\Models\PredefinedKit::class)
                             <li id="kits-sidenav-option"{!! (request()->is('kits') ? ' class="active"' : '') !!}>
                                 <a href="{{ route('kits.index') }}">
@@ -649,6 +650,7 @@ dir="{{ Helper::determineLanguageDirection() }}">
                                 </a>
                             </li>
                         @endcan
+                        --}}
 
                         @can('view', \App\Models\User::class)
                                 <li class="treeview{{ (request()->is('users*') ? ' active' : '') }}" id="users-sidenav-option">
@@ -813,6 +815,7 @@ dir="{{ Helper::determineLanguageDirection() }}">
                                             {{ trans('general.activity_report') }}
                                         </a>
                                     </li>
+                                    {{--
                                     <li {{!! (request()->is('reports/custom') ? ' class="active"' : '') !!}}>
                                         <a href="{{ url('reports/custom') }}">
                                             {{ trans('general.custom_report') }}
@@ -847,10 +850,12 @@ dir="{{ Helper::determineLanguageDirection() }}">
                                             {{ trans('general.accessory_report') }}
                                         </a>
                                     </li>
+                                    --}}
                                 </ul>
                             </li>
                         @endcan
 
+                        {{--
                         @can('viewRequestable', \App\Models\Asset::class)
                             <li{!! (request()->is('account/requestable-assets') ? ' class="active"' : '') !!}>
                                 <a href="{{ route('requestable-assets') }}">
@@ -859,6 +864,7 @@ dir="{{ Helper::determineLanguageDirection() }}">
                                 </a>
                             </li>
                         @endcan
+                        --}}
 
 
                     </ul>
