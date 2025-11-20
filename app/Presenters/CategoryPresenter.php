@@ -65,7 +65,7 @@ class CategoryPresenter extends Presenter
                 'searchable' => false,
                 'sortable' => true,
                 'class' => 'css-envelope',
-                'title' => 'Send Email',
+                'title' => trans('admin/categories/general.import_checkin_email'),
                 'visible' => true,
                 'formatter' => 'trueFalseFormatter',
             ], [
